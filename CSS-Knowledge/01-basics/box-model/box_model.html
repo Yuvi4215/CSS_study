@@ -1,0 +1,44 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+
+  <h1 style="margin:1rem; font-family:sans-serif;">CSS Box Model Demonstration</h1>
+
+  <!-- Container for block examples -->
+  <div class="container">
+    <div class="box content-box">
+      Content-Box
+    </div>
+    <div class="box border-box">
+      Border-Box
+    </div>
+  </div>
+
+  <!-- Inline-block boxes -->
+  <h2 style="margin:1rem; font-family:sans-serif;">Inline-Block Example</h2>
+  <div style="margin: 1rem;">
+    <span class="inline-block">Box A</span>
+    <span class="inline-block">Box B</span>
+    <span class="inline-block">Box C</span>
+  </div>
+
+  <!-- Overflow demo -->
+  <h2 style="margin:1rem; font-family:sans-serif;">Overflow Example</h2>
+  <div class="overflow-demo">
+    This is some extra long text that will not fit in the fixed width and height of this box. Try changing <code>overflow</code> to <code>visible</code>, <code>hidden</code>, <code>scroll</code>, or <code>auto</code> in the CSS file to see the difference.
+  </div>
+
+</body>
+
+</html>
