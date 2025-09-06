@@ -1,0 +1,58 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+
+  <h1>CSS Syntax & Selectors Demonstration</h1>
+
+  <!-- Class Selector -->
+  <p>This is a normal paragraph, and <span class="highlight">this part is highlighted</span> using a <code>.class</code> selector.</p>
+
+  <!-- ID Selector -->
+  <div id="unique-box">
+    This box is styled using an <code>#id</code> selector.
+  </div>
+
+  <!-- Grouping + Descendant + Child -->
+  <div class="container">
+    <h2>Grouping, Descendant & Child Selectors</h2>
+    <p>This paragraph is a direct child of <code>.container</code> (child selector).</p>
+    <div>
+      <p>This paragraph is inside a nested div, styled by descendant selector.</p>
+    </div>
+    <p>Another direct child paragraph of container.</p>
+  </div>
+
+  <!-- Sibling Selectors -->
+  <h2>Sibling Selectors</h2>
+  <p>This paragraph is styled by <code>h2 + p</code> (adjacent sibling selector).</p>
+  <p>This one comes after <code>h2</code> too, so it matches <code>h2 ~ p</code> (general sibling selector).</p>
+  <p>And this one as well.</p>
+
+  <!-- Pseudo-classes -->
+  <h3>Pseudo-classes Example</h3>
+  <ul>
+    <li>First item (styled by :first-child)</li>
+    <li>Second item (styled by :nth-child(2))</li>
+    <li>Last item (styled by :last-child)</li>
+  </ul>
+
+  <p>Check out this <a href="#">hover link</a> styled with <code>:hover</code>.</p>
+
+  <!-- Pseudo-elements -->
+  <h3>Pseudo-elements Example</h3>
+  <p>This paragraph demonstrates <code>::first-letter</code> and <code>::after</code> pseudo-elements.</p>
+
+</body>
+
+</html>
