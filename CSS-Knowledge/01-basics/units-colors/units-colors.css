@@ -1,0 +1,111 @@
+/* ================================
+   Units & Colors Demonstration
+   ================================ */
+
+/* CSS Variables (Custom Properties) */
+:root {
+  --primary-color: #4a90e2;
+  --accent-color: #ffab00;
+  --text-color: #333;
+}
+
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  margin: 20px;
+  line-height: 1.6;
+}
+
+/* Section Titles */
+h2 {
+  margin-top: 2rem;
+  color: var(--primary-color);
+}
+
+/* === Units Section === */
+
+/* Absolute units */
+.box-px {
+  width: 200px;
+  height: 100px;
+  background-color: #d9ecff;
+  border: 2px solid #4a90e2;
+  margin-bottom: 1rem;
+}
+
+/* Relative units: % */
+.box-percent {
+  width: 50%;
+  height: 80px;
+  background-color: #ffe7d6;
+  border: 2px solid #ff8c42;
+  margin-bottom: 1rem;
+}
+
+/* em unit (relative to parent font-size) */
+.em-parent {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.em-child {
+  font-size: 2em; /* 2 × parent = 40px */
+  background-color: #e8ffd6;
+  padding: 0.5em;
+  border: 2px solid #7bbf59;
+}
+
+/* rem unit (relative to root font-size) */
+.rem-box {
+  font-size: 1.5rem;
+  background-color: #f3e6ff;
+  padding: 1rem;
+  border: 2px solid #a05dff;
+  margin-bottom: 1rem;
+}
+
+/* Viewport units */
+.viewport-box {
+  width: 50vw;
+  height: 20vh;
+  background-color: #fff3cd;
+  border: 2px solid #ffcc00;
+  margin-bottom: 1rem;
+}
+
+/* === Colors Section === */
+
+.color-box {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.hex-color {
+  background-color: #4a90e2; /* hex */
+}
+
+.rgb-color {
+  background-color: rgb(255, 99, 71); /* rgb */
+}
+
+.rgba-color {
+  background-color: rgba(255, 99, 71, 0.6); /* rgba (with opacity) */
+}
+
+.hsl-color {
+  background-color: hsl(140, 60%, 45%); /* hsl */
+}
+
+.hsla-color {
+  background-color: hsla(280, 70%, 50%, 0.7); /* hsla */
+}
+
+/* Using CSS variables */
+.var-color {
+  background-color: var(--accent-color);
+  padding: 1rem;
+  border-radius: 6px;
+  color: #222;
+}
