@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Units & Colors Demo</title>
+  <link rel="stylesheet" href="units-colors.css">
+</head>
+<body>
+
+  <h1>CSS Units & Color Demonstration</h1>
+
+  <!-- Units Section -->
+  <h2>Absolute Units (px)</h2>
+  <div class="box-px">200px × 100px box</div>
+
+  <h2>Relative Units (%)</h2>
+  <div class="box-percent">50% width of the page</div>
+
+  <h2>Relative Units (em)</h2>
+  <div class="em-parent">
+    Parent font-size = 20px
+    <div class="em-child">This is 2em (40px)</div>
+  </div>
+
+  <h2>Relative Units (rem)</h2>
+  <div class="rem-box">1.5rem text and spacing</div>
+
+  <h2>Viewport Units (vw / vh)</h2>
+  <div class="viewport-box">50vw × 20vh box</div>
+
+  <!-- Colors Section -->
+  <h2>Color Formats</h2>
+
+  <div class="color-box hex-color">HEX color: #4a90e2</div>
+  <div class="color-box rgb-color">RGB color: rgb(255, 99, 71)</div>
+  <div class="color-box rgba-color">RGBA (with opacity): rgba(255, 99, 71, 0.6)</div>
+  <div class="color-box hsl-color">HSL color: hsl(140, 60%, 45%)</div>
+  <div class="color-box hsla-color">HSLA (with opacity): hsla(280, 70%, 50%, 0.7)</div>
+
+  <h2>Using CSS Variables</h2>
+  <div class="var-color">This uses --accent-color from :root</div>
+
+</body>
+</html>
