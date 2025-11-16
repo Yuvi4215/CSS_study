@@ -1,0 +1,98 @@
+/* ==========================================
+   CSS Backgrounds Demonstration
+   ========================================== */
+
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Section titles */
+h2 {
+  margin: 2rem 0 1rem;
+  color: #2a72d6;
+}
+
+/* Boxes used to demonstrate backgrounds */
+.demo-box {
+  width: 100%;
+  max-width: 600px;
+  height: 180px;
+  border: 2px solid #ccc;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* --- Background Color --- */
+.bg-color {
+  background-color: #ffdf80;
+}
+
+/* --- Background Image --- */
+.bg-image {
+  background-image: url("https://picsum.photos/600/400?random=1");
+}
+
+/* --- Background Repeat --- */
+.bg-repeat {
+  background-image: url("https://picsum.photos/100/100?random=2");
+  background-repeat: repeat;
+}
+
+.bg-no-repeat {
+  background-image: url("https://picsum.photos/200/200?random=3");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* --- Background Size --- */
+.bg-cover {
+  background-image: url("https://picsum.photos/600/400?random=4");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-contain {
+  background-image: url("https://picsum.photos/600/400?random=5");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* --- Background Position --- */
+.bg-position {
+  background-image: url("https://picsum.photos/600/400?random=6");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: top right;
+}
+
+/* --- Background Attachment --- */
+.bg-fixed {
+  background-image: url("https://picsum.photos/600/800?random=7");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* --- Multiple Backgrounds --- */
+.bg-multi {
+  background-image:
+    url("https://picsum.photos/200/200?random=8"),
+    linear-gradient(135deg, #ff7b7b, #ffd77b);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, center;
+  background-size: 150px, cover;
+}
+
+/* --- Gradients --- */
+.bg-linear-gradient {
+  background: linear-gradient(to right, #4a90e2, #50e3c2);
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(circle, #ff8a8a, #d81b60);
+}
