@@ -1,0 +1,136 @@
+/* ==========================================
+   CSS Fonts & Text Demonstration
+   ========================================== */
+
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Mono:wght@400;700&display=swap");
+
+/* Custom Font (example) */
+/* Uncomment if you add your own font file
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("fonts/MyCustomFont.woff2") format("woff2");
+}
+*/
+
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+}
+
+/* Section heading */
+h2 {
+  margin: 2rem 0 1rem;
+  color: #2a72d6;
+}
+
+/* ======= Font Family ======= */
+.font-arial {
+  font-family: Arial, sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-roboto-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+/* ======= Font Size ======= */
+.font-small {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-size: 20px;
+}
+
+.font-large {
+  font-size: 32px;
+}
+
+/* ======= Font Weight / Style ======= */
+.font-light {
+  font-weight: 300;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+/* ======= Text Alignment ======= */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* ======= Text Decoration ======= */
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text-overline {
+  text-decoration: overline;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+/* ======= Text Transform ======= */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* ======= Spacing ======= */
+.letter-space {
+  letter-spacing: 4px;
+}
+
+.word-space {
+  word-spacing: 10px;
+}
+
+/* ======= Line Height ======= */
+.line-tight {
+  line-height: 1.1;
+}
+
+.line-loose {
+  line-height: 2;
+}
+
+/* ======= Text Shadow ======= */
+.text-shadow-soft {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text-shadow-strong {
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
