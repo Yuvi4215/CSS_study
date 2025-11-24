@@ -1,0 +1,111 @@
+/* ==========================================
+   CSS Display & Visibility Demonstration
+   ========================================== */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+/* Section Headers */
+h2 {
+  margin: 2rem 0 1rem;
+  color: #2a72d6;
+}
+
+/* Common Box Style */
+.box {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #d9ecff;
+  border: 2px solid #4a90e2;
+  border-radius: 6px;
+}
+
+/* ======= Display Types ======= */
+
+/* Block */
+.block-box {
+  display: block;
+  width: 200px;
+  background-color: #cfe9ff;
+}
+
+/* Inline */
+.inline-box {
+  display: inline;
+  background-color: #ffd6a5;
+  padding: 4px;
+  border: 1px solid #ffa654;
+}
+
+/* Inline-Block */
+.inline-block-box {
+  display: inline-block;
+  width: 150px;
+  background-color: #d9ffd6;
+  border: 2px solid #6ecb6b;
+}
+
+/* None */
+.none-box {
+  display: none;
+}
+
+/* ======= Visibility ======= */
+
+.visible-box {
+  visibility: visible;
+  background-color: #fff3cd;
+  border-color: #ffcd39;
+}
+
+.hidden-box {
+  visibility: hidden;
+  background-color: #ffeeba;
+  border-color: #ffcd39;
+}
+
+/* ======= Opacity ======= */
+
+.opacity-half {
+  opacity: 0.5;
+  background-color: #fff0f0;
+}
+
+/* ======= Flexbox ======= */
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  background-color: #eef5ff;
+  padding: 10px;
+  border: 2px solid #9bc4ff;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 10px;
+  background-color: #d6e4ff;
+  border: 1px solid #6f9dff;
+  text-align: center;
+}
+
+/* ======= Grid ======= */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #fff1f1;
+  padding: 10px;
+  border: 2px solid #ffb3b3;
+}
+
+.grid-item {
+  padding: 10px;
+  background-color: #ffd6d6;
+  border: 1px solid #ff9c9c;
+  text-align: center;
+}
