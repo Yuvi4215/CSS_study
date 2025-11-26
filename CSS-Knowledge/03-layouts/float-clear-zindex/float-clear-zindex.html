@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Float, Clear & Z-Index Demo</title>
+  <link rel="stylesheet" href="float-clear-zindex.css" />
+</head>
+<body>
+
+  <h1>CSS Float, Clear & Z-Index Demonstration</h1>
+
+  <!-- FLOAT LEFT -->
+  <h2>Float: left</h2>
+  <div class="box float-left">Floated Left</div>
+  <p>
+    This paragraph wraps around the floated box. Floats allow text to flow
+    alongside images or elements. It stays in normal flow while the floated
+    element is removed from traditional positioning.
+  </p>
+
+  <div class="box clear-left">Cleared left — starts below the float.</div>
+
+  <!-- FLOAT RIGHT -->
+  <h2>Float: right</h2>
+  <div class="box float-right">Floated Right</div>
+  <p>
+    When floated right, the text wraps on the left side. Floats are commonly
+    used for image placement or old-school column layouts.
+  </p>
+
+  <div class="box clear-right">Cleared right — starts below the float.</div>
+
+  <!-- CLEAR BOTH -->
+  <h2>Clear: both</h2>
+  <p class="clear-both">This text clears both sides and moves below any float.</p>
+
+  <!-- Z-Index -->
+  <h2>Z-Index Demonstration</h2>
+  <p>Z-index controls stack order of overlapping positioned elements.</p>
+
+  <div class="z-container">
+    <div class="z-box z1">z-index: 1</div>
+    <div class="z-box z2">z-index: 2</div>
+    <div class="z-box z3">z-index: 3</div>
+  </div>
+
+</body>
+</html>
