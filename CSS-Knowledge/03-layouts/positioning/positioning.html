@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Positioning Demo</title>
+  <link rel="stylesheet" href="positioning.css" />
+</head>
+<body>
+
+  <h1>CSS Positioning Demonstration</h1>
+
+  <!-- Static -->
+  <h2>Position: static (default)</h2>
+  <div class="section-box static-box">
+    This element is static — positioned normally in the flow.
+  </div>
+
+  <!-- Relative -->
+  <h2>Position: relative</h2>
+  <div class="section-box relative-box">
+    This box is moved using top/left but still holds its original space.
+  </div>
+
+  <!-- Absolute -->
+  <h2>Position: absolute</h2>
+  <div class="absolute-parent">
+    Parent (position: relative)
+    <div class="absolute-child">
+      Absolutely positioned inside parent
+    </div>
+  </div>
+
+  <!-- Sticky -->
+  <h2>Position: sticky</h2>
+  <div class="sticky-box">I stick when you scroll ↓</div>
+
+  <p>
+    Scroll down the page to see how <strong>position: sticky</strong> behaves.
+    It stays fixed until its section ends.
+  </p>
+
+  <p style="margin-top: 800px;">Keep scrolling...</p>
+  <p style="margin-bottom: 1000px;">More scroll space to test sticky.</p>
+
+  <!-- Fixed -->
+  <h2>Position: fixed</h2>
+  <p>
+    A fixed-position element stays in the same place relative to the viewport.
+    The green box below stays at bottom-right even while scrolling.
+  </p>
+
+  <div class="fixed-box">
+    Fixed Box (bottom-right)
+  </div>
+
+</body>
+</html>
