@@ -1,0 +1,79 @@
+/* ==========================================
+   CSS Positioning Demonstration
+   ========================================== */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  margin: 2rem 0 1rem;
+  color: #2a72d6;
+}
+
+.section-box {
+  padding: 10px;
+  border: 2px solid #ccc;
+  background-color: #f8faff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* ===== STATIC (default) ===== */
+.static-box {
+  padding: 10px;
+  background-color: #e6f0ff;
+  border: 2px solid #9bbcff;
+}
+
+/* ===== RELATIVE ===== */
+.relative-box {
+  position: relative;
+  padding: 10px;
+  background-color: #fff3cd;
+  border: 2px solid #ffce54;
+  top: 10px;     
+  left: 10px;
+}
+
+/* ===== ABSOLUTE ===== */
+.absolute-parent {
+  position: relative;
+  height: 200px;
+  border: 2px dashed #aaa;
+  padding: 10px;
+  background-color: #fafafa;
+  margin-bottom: 2rem;
+}
+
+.absolute-child {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #ffd6d6;
+  border: 2px solid #ff9e9e;
+}
+
+/* ===== FIXED ===== */
+.fixed-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 18px;
+  background-color: #d6f5d6;
+  border: 2px solid #7ad87a;
+  border-radius: 6px;
+}
+
+/* ===== STICKY ===== */
+.sticky-box {
+  position: sticky;
+  top: 10px;
+  background-color: #e8e1ff;
+  padding: 10px;
+  border: 2px solid #b19cff;
+  border-radius: 6px;
+}
