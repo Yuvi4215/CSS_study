@@ -1,0 +1,123 @@
+/* ==========================================
+   Flexbox Alignment Demonstration
+   ========================================== */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #2a72d6;
+}
+
+/* Common flex container style */
+.flex-box {
+  display: flex;
+  background-color: #eef5ff;
+  border: 2px solid #9bc4ff;
+  padding: 15px;
+  margin-bottom: 30px;
+  height: 150px;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+/* Flex items */
+.item {
+  background-color: #cfe0ff;
+  border: 2px solid #6fa8ff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* ===== Justify Content (Main Axis) ===== */
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* ===== Align Items (Cross Axis) ===== */
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+/* ===== Flex Direction ===== */
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+  height: auto;
+  min-height: 200px;
+}
+
+/* ===== Align Content (multi-row) ===== */
+
+.wrap {
+  flex-wrap: wrap;
+  height: 200px;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.align-content-between {
+  align-content: space-between;
+}
+
+.align-content-around {
+  align-content: space-around;
+}
+
+/* ===== Align Self (individual item alignment) ===== */
+.align-self-demo .item:nth-child(1) {
+  align-self: flex-start;
+}
+
+.align-self-demo .item:nth-child(2) {
+  align-self: center;
+}
+
+.align-self-demo .item:nth-child(3) {
+  align-self: flex-end;
+}
