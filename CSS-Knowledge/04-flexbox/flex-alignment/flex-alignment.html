@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Alignment Demo</title>
+  <link rel="stylesheet" href="flex-alignment.css" />
+</head>
+<body>
+
+  <h1>Flexbox Alignment Demonstration</h1>
+
+  <!-- Justify Content -->
+  <h2>Justify Content (Main Axis)</h2>
+
+  <div class="flex-box justify-start">
+    <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box justify-center">
+    <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box justify-end">
+    <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box justify-between">
+    <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box justify-around">
+    <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box justify-evenly">
+    <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+  </div>
+
+
+  <!-- Align Items -->
+  <h2>Align Items (Cross Axis)</h2>
+  <div class="flex-box align-start">
+    <div class="item">A</div><div class="item" style="height:50px;">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box align-center">
+    <div class="item">A</div><div class="item" style="height:50px;">B</div><div class="item">C</div>
+  </div>
+
+  <div class="flex-box align-end">
+    <div class="item">A</div><div class="item" style="height:50px;">B</div><div class="item">C</div>
+  </div>
+
+
+  <!-- Flex Direction -->
+  <h2>Flex Direction</h2>
+  <div class="flex-box row">
+    <div class="item">Row 1</div><div class="item">Row 2</div><div class="item">Row 3</div>
+  </div>
+
+  <div class="flex-box column">
+    <div class="item">Column 1</div><div class="item">Column 2</div><div class="item">Column 3</div>
+  </div>
+
+
+  <!-- Align Content -->
+  <h2>Align Content (multi-line layout)</h2>
+  <div class="flex-box wrap align-content-between">
+    <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+    <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+  </div>
+
+
+  <!-- Align Self -->
+  <h2>Align Self (individual items)</h2>
+  <div class="flex-box align-self-demo">
+    <div class="item">self-start</div>
+    <div class="item">self-center</div>
+    <div class="item">self-end</div>
+  </div>
+
+</body>
+</html>
