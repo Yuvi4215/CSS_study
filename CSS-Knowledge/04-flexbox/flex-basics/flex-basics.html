@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Basics Demo</title>
+  <link rel="stylesheet" href="flex-basics.css" />
+</head>
+<body>
+
+  <h1>Flexbox Basics Demonstration</h1>
+
+  <!-- Display Flex -->
+  <h2>display: flex</h2>
+  <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+  </div>
+
+  <!-- Flex Direction -->
+  <h2>flex-direction</h2>
+
+  <p>Row (default)</p>
+  <div class="flex-container row">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </div>
+
+  <p>Row Reverse</p>
+  <div class="flex-container row-reverse">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </div>
+
+  <p>Column</p>
+  <div class="flex-container column">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </div>
+
+  <p>Column Reverse</p>
+  <div class="flex-container column-reverse">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </div>
+
+  <!-- Flex Wrap -->
+  <h2>flex-wrap</h2>
+
+  <p>No Wrap (default)</p>
+  <div class="flex-container fixed-width no-wrap">
+    <div class="flex-item">A</div>
+    <div class="flex-item">B</div>
+    <div class="flex-item">C</div>
+    <div class="flex-item">D</div>
+  </div>
+
+  <p>Wrap</p>
+  <div class="flex-container fixed-width wrap">
+    <div class="flex-item">A</div>
+    <div class="flex-item">B</div>
+    <div class="flex-item">C</div>
+    <div class="flex-item">D</div>
+  </div>
+
+  <p>Wrap Reverse</p>
+  <div class="flex-container fixed-width wrap-reverse">
+    <div class="flex-item">A</div>
+    <div class="flex-item">B</div>
+    <div class="flex-item">C</div>
+    <div class="flex-item">D</div>
+  </div>
+
+  <!-- Flex Flow -->
+  <h2>flex-flow (shorthand)</h2>
+  <div class="flex-container fixed-width flow-row-wrap">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">4</div>
+  </div>
+
+  <!-- Gap -->
+  <h2>gap</h2>
+  <div class="flex-container with-gap">
+    <div class="flex-item">X</div>
+    <div class="flex-item">Y</div>
+    <div class="flex-item">Z</div>
+  </div>
+
+</body>
+</html>
