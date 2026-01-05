@@ -1,0 +1,68 @@
+/* ==========================================
+   CSS Media Queries Demonstration
+   Mobile First Approach
+   ========================================== */
+
+/* Base styles (Mobile - default) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  padding: 16px;
+  background-color: #e6f0ff;
+  border: 2px solid #9bbcff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* ===============================
+   Tablet (min-width: 600px)
+   =============================== */
+@media (min-width: 600px) {
+  body {
+    background-color: #eef7ff;
+  }
+
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1 1 45%;
+  }
+}
+
+/* ===============================
+   Desktop (min-width: 992px)
+   =============================== */
+@media (min-width: 992px) {
+  body {
+    background-color: #eafbea;
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    flex: 1;
+    font-size: 1.1rem;
+  }
+}
